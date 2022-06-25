@@ -1,0 +1,28 @@
+#crreating virtual env in python 
+
+1. pip install virtualenvironment
+
+#create env
+2. virtualenv <envName>
+
+#acitvate env
+
+3. .\<envName>\Scripts\activate
+
+#if command doesn't works than run this
+
+4. 'set-executionpolicy remotesigned' then hit 'Yes'
+
+#creating requirements.txt
+5.pip freeze > requirements.txt 
+
+#installing through requriements.txt
+6.pip install -r requirements.txt
+
+#deactivating env
+7.deactivate
+
+#creating environment with all base packages inherited 
+8. virtualenv --system-site-packages <envNAME>
+
+
