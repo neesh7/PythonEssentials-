@@ -25,4 +25,5 @@
 #creating environment with all base packages inherited 
 8. virtualenv --system-site-packages <envNAME>
 
-
+# After doing all these changes
+Goo to Vs code > view> command Pallet>python interpreter>search and load the python interepreter from virtual env 
